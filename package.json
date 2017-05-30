@@ -1,0 +1,25 @@
+{
+  "name": "bic-from-iban",
+  "version": "1.0.0",
+  "description": "Validates IBANs and generates BICs from IBANs",
+  "main": "BICFromIBAN.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/michelalbers/Bic-from-IBAN.git"
+  },
+  "keywords": [
+    "bic",
+    "iban",
+    "swift",
+    "banking"
+  ],
+  "author": "javiquero",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/michelalbers/Bic-from-IBAN/issues"
+  },
+  "homepage": "https://github.com/michelalbers/Bic-from-IBAN#readme"
+}
