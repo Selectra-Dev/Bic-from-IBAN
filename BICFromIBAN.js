@@ -9,13 +9,13 @@
 function getBIC(iban) {
     if (validateIBAN(iban)) {
         var country = iban.substring(0, 2);
-        var banks = require("./AllCountries/" + country + ".json");
+        var banks = require("./SwiftCodes/AllCountries/" + country + ".json");
         var bankCode = iban.substring(4, 8).replace(/^0+/, '');
 
         var item = banks.list.find((d) => {
             return d.id === bankCode
         });
-        
+
         return item == undefined ? "" : item.swift_code.concat("XXXXXXXXXXX").substring(0,11);
     } else {
         return "";

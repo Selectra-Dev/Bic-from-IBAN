@@ -1,0 +1,3 @@
+[submodule "SwiftCodes"]
+	path = SwiftCodes
+	url = git@github.com:PeterNotenboom/SwiftCodes.git

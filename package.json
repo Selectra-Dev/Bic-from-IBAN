@@ -17,9 +17,5 @@
     "banking"
   ],
   "author": "javiquero",
-  "license": "GPL-3.0",
-  "bugs": {
-    "url": "https://github.com/michelalbers/Bic-from-IBAN/issues"
-  },
-  "homepage": "https://github.com/michelalbers/Bic-from-IBAN#readme"
+  "license": "GPL-3.0"
 }
